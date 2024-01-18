@@ -1,0 +1,460 @@
+.header-for {
+  height: 29rem;
+  background: #B7904B;
+}
+.header-for .position-absolute {
+  left: calc(50% - 14.5rem);
+}
+.header-for .position-absolute .contact-text {
+  color: #E5E5E5;
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-box {
+  margin-top: 12rem;
+  margin-bottom: 20rem;
+}
+.contact-box .contact-p1 {
+  color: #14274A;
+  font-family: Adobe Garamond Pro;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact-box .contact-p2 {
+  color: #14274A;
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.contact-box .row {
+  margin-top: 10rem;
+}
+.contact-box .row__abs {
+  color: #14274A;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact-box .row__view {
+  color: #14274A;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact-box .row__phone {
+  color: #14274A;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form .btn {
+  margin: 1rem 6.3rem 0 0;
+}
+
+.header-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.249), rgba(0, 0, 0, 0.282)), url(../img/Mask\ Group.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.facilities-box .facilities {
+  color: #14274A;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.facilities-box .we-want {
+  color: #14274A;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.facilities-box .facilities-item {
+  margin-bottom: 6rem;
+}
+.facilities-box .facilities-item .position-absolute {
+  bottom: 0;
+  left: calc(50% - 20rem);
+}
+.facilities-box .facilities-item .position-absolute .center-text {
+  color: #E0B973;
+  font-family: Montserrat;
+  font-size: 2.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 40rem;
+  height: 4rem;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+
+.btn {
+  background-color: #E0B973 !important;
+}
+.btn:hover {
+  background-color: #fcb42e !important;
+  cursor: pointer;
+}
+
+.linkk {
+  color: #fff !important;
+  cursor: pointer;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+.linkk:hover {
+  color: #e3dada !important;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.529)), url(../img/background-home.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.header__item {
+  padding: 0 7rem 0 2rem;
+}
+
+.navbar__icon {
+  width: 18rem;
+  height: 8rem;
+  border-radius: 0 0 3rem 3rem;
+  background-color: #14274A;
+}
+.navbar__icon .icon-background .icon-p {
+  color: #E0B973;
+  font-family: Fenix;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5.4px;
+}
+.navbar__icon .icon-background .icon--p {
+  color: #faa301;
+  font-family: Finger Paint;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 9px;
+}
+.navbar__ul a {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  font-family: Montserrat;
+}
+.navbar__ul .active {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar__ul .no-active {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text {
+  padding: 10rem 0 0;
+}
+.text__welcome {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text__sheraton {
+  color: #E0B973;
+  font-family: Fenix;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10.78px;
+}
+.text__hotels {
+  color: #E0B973;
+  font-family: Fenix;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 24px;
+}
+.text__book {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+
+.position-absolute {
+  bottom: 2rem;
+  left: calc(50% - 6.65625rem);
+}
+.position-absolute .box-book {
+  background-color: #14274A;
+  border-radius: 7px;
+}
+.position-absolute .box-book__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.56rem 2.5rem;
+}
+.position-absolute .box-book__item img {
+  height: 50%;
+}
+.position-absolute .box-book__item--text {
+  color: #E0B973;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0.9rem;
+}
+.position-absolute .box-book:hover {
+  background-color: #1a305b;
+}
+.position-absolute .box-book:active {
+  transform: scale(1.02);
+  transition: all 0.15s;
+}
+.position-absolute .box-swipe .swipe {
+  width: 3.05rem;
+  height: 3rem;
+  flex-shrink: 0;
+  margin-top: 1rem;
+}
+.position-absolute .box-swipe:hover {
+  opacity: 0.92;
+}
+.position-absolute .box-swipe:active {
+  transform: scale(1.07);
+}
+
+.section-box {
+  background: #F7F7F7;
+}
+.section-box .all-text {
+  color: #14274A;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 4rem;
+}
+.section-box .col-text {
+  padding: 0 3.3rem 0;
+}
+.section-box .col-text__p {
+  color: #14274A;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.7rem;
+}
+.section-box .col-text__our {
+  color: #14274A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 2.3rem;
+}
+.section-box .row-one {
+  margin-top: 4rem;
+}
+.section-box .row-first {
+  margin-top: 3rem;
+}
+.section-box .container-fluid {
+  margin-left: calc(50% - 4rem);
+  margin-top: 4rem;
+}
+.section-box .container-fluid .explore-box {
+  flex-shrink: 0;
+  background-color: #E0B973;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  border-radius: 7px;
+}
+.section-box .container-fluid .explore-box__item {
+  color: #14274A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-box .container-fluid .explore-box:hover {
+  background-color: #fcb42e;
+}
+.section-box .container-fluid .explore-box:active {
+  transform: scale(1.03);
+  transition: all 0.1s;
+  box-shadow: 0 0 3px 3px #b3b3b3;
+  border-color: #5e5e5e;
+  transition: all 0.2s;
+}
+
+.footre-box {
+  background-color: #14274A;
+  padding: 0;
+}
+.footre-box .footer-item .sheraton {
+  color: #E0B973;
+  font-family: Fenix;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+.footre-box .footer-item .sheraton-hotels {
+  color: #E0B973;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+.footre-box .footer-item .aboute, .footre-box .footer-item .contact, .footre-box .footer-item .terms {
+  color: #F7F7F7;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footre-box .footer-item__icon {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footre-box .footer-item__icon--text {
+  color: #F7F7F7;
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 194.9%; /* 31.184px */
+}
+.footre-box .footer-item .email {
+  color: #FFF;
+}
+.footre-box .footer-item__search-p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-three {
+  background: linear-gradient(rgba(0, 0, 0, 0.249), rgba(0, 0, 0, 0.282)), url(../img/back-roms.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #E0B973 !important;
+}
+.btn:hover {
+  background-color: #fcb42e !important;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(1.02);
+}
+
+.rooms-items .rooms-item {
+  margin-bottom: 7rem;
+}
+.rooms-items .rooms-item__single {
+  color: #FFF;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #14274A;
+}
+
+.view-box .row {
+  padding: 4rem 0;
+  border: 2px solid black;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+.view-box p {
+  color: #14274A;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.view-box .btn {
+  width: 18rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  background-color: #E0B973;
+  border-radius: 7px;
+}
+.view-box .btn__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=main.css.map */

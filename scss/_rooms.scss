@@ -1,0 +1,63 @@
+.header-three{
+    background:linear-gradient(rgba(0, 0, 0, 0.249), rgba(0, 0, 0, 0.282)), url(../img/back-roms.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn{
+    background-color: #E0B973 !important;
+    &:hover{
+        background-color: #fcb42e !important;
+        cursor: pointer;
+    }
+    &:active{
+        transform: scale(1.02);
+    }
+}
+.rooms-items{
+    .rooms-item{
+        margin-bottom: 7rem;
+        &__single{
+            color: #FFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: #14274A;
+        }
+    }
+}
+
+.view-box{
+    .row{
+        padding: 4rem 0;
+        border: 2px solid black;
+        border-top: none;
+        border-radius: 0 0 10px 10px;
+    }
+    p{
+        color: #14274A;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .btn{
+        width: 18rem;
+        height: 4.5rem;
+        flex-shrink: 0;
+        background-color: #E0B973;
+        border-radius: 7px;
+        &__text{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}

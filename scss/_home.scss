@@ -1,0 +1,302 @@
+.btn{
+    background-color: #E0B973 !important;
+    &:hover{
+        background-color: #fcb42e !important;
+        cursor: pointer;
+    }
+}
+
+.linkk{
+    color: #fff !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    list-style: none !important;
+    &:hover{
+        color: #e3dada !important;
+    }
+}
+
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.529)), url(../img/background-home.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh; 
+     &__item{
+        padding: 0 7rem 0 2rem;
+     }
+}
+.navbar{
+    &__icon{
+        width: 18rem;
+        height: 8rem;
+        border-radius: 0 0 3rem 3rem;
+        background-color: #14274A;
+        .icon-background{
+            .icon-p{
+                color: #E0B973;
+                font-family: Fenix;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 5.4px;
+            }
+            .icon--p{
+                color: #faa301;
+                font-family: Finger Paint;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 9px;
+            }
+        }
+    }
+
+    &__ul{
+        a{
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            color: #FFF;
+            font-family: Montserrat;
+ 
+        }
+        .active{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .no-active{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.text{
+    padding: 10rem 0 0;
+    &__welcome{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__sheraton{
+        color: #E0B973;
+        font-family: Fenix;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 10.78px;
+    }
+    &__hotels{
+        color: #E0B973;
+        font-family: Fenix;
+        font-size: 4.2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 24px;
+    }
+    &__book{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.5px;
+    }
+}
+
+.position-absolute{
+    bottom: 2rem;
+    
+    left: calc(50% - 6.65625rem);
+    .box-book{
+        background-color: #14274A;
+        border-radius: 7px;
+        &__item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .56rem 2.5rem;
+            img{
+                height: 50%;
+            }
+            &--text{
+                color: #E0B973;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-left: .9rem;
+            }
+        }
+        &:hover{
+            background-color: #1a305b;
+        }
+        &:active{
+            transform: scale(1.02);
+            transition: all .15s;
+        }
+    }
+    .box-swipe{
+        .swipe{
+            width: 3.05rem;
+            height: 3rem;
+            flex-shrink: 0;
+            margin-top: 1rem;
+        }
+        &:hover{
+            opacity: .92;
+        }
+        &:active{
+            transform: scale(1.07);
+        }
+
+    }
+}
+
+
+
+.section-box{
+    background: #F7F7F7;
+    .all-text{
+        color: #14274A;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 4rem;
+    }
+    .col-text{
+        padding: 0 3.3rem 0;
+        &__p{
+            color: #14274A;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            margin-bottom: .7rem;
+        }
+        &__our{
+            color: #14274A;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 550;
+            line-height: 2.3rem;
+        }
+    }
+    .row-one{
+        margin-top: 4rem;
+    }
+    .row-first{
+        margin-top: 3rem;
+    }
+    .container-fluid{
+        margin-left: calc(50% - 4rem);
+        margin-top: 4rem;
+        .explore-box{
+            flex-shrink: 0;
+            background-color:#E0B973 ;
+            padding: .5rem 2rem;
+            display: inline-block;
+            border-radius: 7px;
+            &__item{
+                color: #14274A;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                // letter-spacing: 1px;
+            }
+            &:hover{
+                background-color: #fcb42e;
+            }
+            &:active{
+                transform: scale(1.03);
+                transition: all .1s;
+                box-shadow: 0 0 3px 3px lighten( #000000, 70%);
+                border-color: lighten(#111, 30%);
+                transition: all .2s;
+            }
+        }
+    }
+}
+
+
+
+.footre-box{
+    background-color: #14274A;
+    padding: 0;
+    .footer-item{
+        .sheraton{
+            color: #E0B973;
+            font-family: Fenix;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 3.6px;
+        }
+        .sheraton-hotels{
+            color: #E0B973;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 3.6px;
+        }
+        .aboute, .contact, .terms{
+            color: #F7F7F7;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &__icon{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            &--text{
+                color: #F7F7F7;
+                font-family: Montserrat;
+                font-size: 1.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 194.9%; /* 31.184px */
+            }
+        }
+        .email{
+            color: #FFF;
+        }
+        &__search-p{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

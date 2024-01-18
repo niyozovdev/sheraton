@@ -1,0 +1,47 @@
+
+.header-two{
+    background:linear-gradient(rgba(0, 0, 0, 0.249), rgba(0, 0, 0, 0.282)), url(../img/Mask\ Group.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.facilities-box{
+    .facilities{
+        color: #14274A;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3px;
+    }
+    .we-want{
+        color: #14274A;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .facilities-item{
+        margin-bottom: 6rem;
+        .position-absolute{
+            bottom: 0;
+            left: calc(50% - 20rem);
+            .center-text{
+                color: #E0B973;
+                font-family: Montserrat;
+                font-size: 2.7rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                width: 40rem;
+                height: 4rem;
+                flex-shrink: 0;
+                background-color: #fff;
+            }
+        }
+    }
+}
